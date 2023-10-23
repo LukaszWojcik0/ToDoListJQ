@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   letter-spacing: 1px;
-  /* font-family: Verdana, sans-serif; */
+  font-family: Verdana, sans-serif;
+
   text-transform: capitalize;
 }
 
@@ -12,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(45deg, #ff0 50%, #333 50%);
+  background: linear-gradient(45deg, #4536ee 50%, #333 50%);
 }
 
 .container {
@@ -39,4 +40,36 @@ body {
 
 #input::placeholder {
   color: #bbb;
+}
+
+ul li {
+  background: #eee;
+  color: #333;
+  height: 40px;
+  border-radius: 50px;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+}
+
+ul .fa-check,
+.fa-trash {
+  position: absolute;
+  cursor: pointer;
+}
+
+ul .fa-check {
+  right: 40px;
+  color: green;
+}
+
+ul .fa-trash {
+  right: 15px;
+  color: red;
+}
+
+ul .checked {
+  background: lightgreen;
+  text-decoration: line-through;
+  transition: 2s;
 }
