@@ -10,3 +10,4 @@ Możliwości strony:
 
 Ikony "check icon" oraz "delete icon" zaciągnięte z https://fontawesome.com/
 
+Link: https://lukaszwojcik0.github.io/ToDoListJQ/
